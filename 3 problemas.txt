@@ -1,0 +1,25 @@
+Problema 1:
+
+Perdida de inventario de un negocio o empresa.
+
+Soluciones:
+
+-Con la creación del software se simplifica el hecho de hacer el inventario a mano y evitar la perdida del mismo.
+-En dicho software el inventario estara guardado de forma segura en una base de datos.
+
+Problema 2:
+
+-Softwares muy costosos o muy complicados de utilizar para la gestión de inventario.
+
+Soluciones:
+
+-Nuestro software cumplira con las necesidades del cliente y no sera excesivamente costoso.
+-Que sea facil la utilización del software.
+
+Problema 3:
+
+-Necesidad de realizar el inventario de forma rápida y segura.
+
+solución:
+
+-Compra de un software para la gestión de inventario que se realice de forma facil, rapida y segura.
