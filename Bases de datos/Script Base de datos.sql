@@ -415,8 +415,6 @@ call InsertarMediaP(5, 5, current_timestamp());
 call InsertarMediaP(4, 6, current_timestamp());
 call InsertarMediaP(4, 7, current_timestamp());
 call InsertarMediaP(6, 8, current_timestamp());
-call InsertarMediaP(4, 9, current_timestamp());
-call InsertarMediaP(4, 10, current_timestamp());
 
 drop procedure MostrarMediaP
 DELIMITER ##
