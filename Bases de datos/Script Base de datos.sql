@@ -13,12 +13,12 @@ nombre_cargo varchar(40) not null);
 -- ----------------------------------------------------------- --
 
 create table lote_medicamento(id_loteM int(11) primary key auto_increment,
-nombre_loteM varchar(50));
+nombre_loteM varchar(50) not null);
 
 -- ----------------------------------------------------------- --
 
 create table lote_alimento(id_loteA int(11) primary key auto_increment,
-nombre_loteA varchar(50));
+nombre_loteA varchar(50) not null);
 
 -- ----------------------------------------------------------- --
 
@@ -84,7 +84,7 @@ foreign key (producto_id) references productos (id_producto));
 
 create table proveedores_productos(proveedor_id int(11) not null,
 producto_id int(11) not null,
-fecha_proveedor datetime not null,
+fecha_proveedor date not null,
 foreign key (proveedor_id) references proveedores (id_proveedor),
 foreign key (producto_id) references productos (id_producto));
 
@@ -534,17 +534,7 @@ drop view Stock;
 
 /*Disparadores (triggers)*/
 
-DELIMITER ##
-create trigger hola
-before insert
-on productos
-for each row
-begin
-insert into usuarios_productos (usuario_id, producto_id) values (1001228684, 5);
-end ##
-DELIMITER ;
 
-drop trigger hola;
 
 /*Mostrar procedimientos almacenados (select)*/
 
